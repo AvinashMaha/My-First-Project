@@ -19,10 +19,7 @@ namespace My_First_Project.Week_Test_2
 
             Console.WriteLine(power);
         }
-        
-        
-
-
+      
         static void Main(String[] args)
         {
             Q2 q = new Q2();

@@ -45,8 +45,9 @@ namespace My_First_Project.ContentMent
             p.Id = 123;
             p.Name ="Avinash Mahadevkar";
             p.Adr = new Addresss();
+           
             p.Adr.Type = "Kolhapur";
-
+           
             Console.WriteLine(p.Id + "\t" + p.Name + "\t" + p.Adr.Type);
         }
     }

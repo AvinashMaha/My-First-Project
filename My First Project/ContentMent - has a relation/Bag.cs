@@ -68,10 +68,13 @@ namespace My_First_Project.ContentMent
             b.Brand_name = "Nike";
             b.Price = 6555;
             b.Color = "Skyblue";
-            b.P.Length = "5.5 inch";
+
+            b.P = new pen();
+
+            b.P.Length = "medium";
             b.P.Name = "Montex";
             b.P.Color = "Purple";
-            b.P.Type = "Ball Pen";
+            b.P.Type = "Ball_Pen";
 
             Console.WriteLine(b.Brand_name+"\t"+b.Price+"\t"+b.Color+"\t"+b.P.Length+"\t"+b.P.Name+"\t"+b.P.Color+"\t"+b.P.Type);
 

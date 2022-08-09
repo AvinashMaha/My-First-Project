@@ -11,7 +11,7 @@ namespace My_First_Project.Static_Method
 
         void show()
         {
-            Console.WriteLine(x + " " + y);
+            Console.WriteLine(x + " \t" + y);
         }
         static void Mymethod()
         {
