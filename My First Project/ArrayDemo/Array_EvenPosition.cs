@@ -8,10 +8,19 @@ namespace My_First_Project.ArrayDemo
     {
         public void Position(int[]b)
         {
+            int[] arr = new int[b.Length];
             for (int i = 0; i<b.Length; i=i+2)
             {
-
-                Console.WriteLine("Even position even numbers are"+b[i]);
+                arr[i] = b[i];
+            }
+            Console.WriteLine("Even position is");
+            for(int j =0; j < arr.Length; j++)
+            {
+                if(arr[j] == 0)
+                {
+                    continue;
+                }
+                Console.WriteLine(arr[j]);
             }
         }
             
@@ -26,7 +35,7 @@ namespace My_First_Project.ArrayDemo
                 a[i] = int.Parse(Console.ReadLine());
             }
             Array_EvenPosition e = new Array_EvenPosition();
-           
+            e.Position(a);
 
         }
     }

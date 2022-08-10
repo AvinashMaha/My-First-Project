@@ -2,19 +2,19 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace My_First_Project.Abstraction
-{
-    interface ISumable
+/*namespace My_First_Project.Abstraction
+{*/
+   /* interface ISumable
     {
          static int a = 10;
         void Isumable();
-    }
-    abstract class Addition
+    }*/
+   /* abstract class Addition
     {
         internal int b = 10;
         public abstract void Sum();
-    }
-    class Calculation : Addition, ISumable
+    }*/
+   /* class Calculation : Addition, ISumable
     {
         int num1, num2;
         public void Isumable(int x)
@@ -46,4 +46,4 @@ namespace My_First_Project.Abstraction
             
         }
     }
-}
+}*/
