@@ -8,19 +8,14 @@ namespace My_First_Project.ArrayDemo
     {
         public void Position(int[]b)
         {
-            int[] arr = new int[b.Length];
-            for (int i = 0; i<b.Length; i=i+2)
+            
+            for (int i = 0; i<b.Length;i++)
             {
-                arr[i] = b[i];
-            }
-            Console.WriteLine("Even position is");
-            for(int j =0; j < arr.Length; j++)
-            {
-                if(arr[j] == 0)
+                if (i % 2 != 0)
                 {
                     continue;
                 }
-                Console.WriteLine(arr[j]);
+                Console.WriteLine("Even position is : " + b[i]);
             }
         }
             

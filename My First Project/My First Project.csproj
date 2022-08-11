@@ -4,6 +4,6 @@
     <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp3.1</TargetFramework>
 	  <RootNamespace>My_First_Project</RootNamespace>
-	  <StartupObject>My_First_Project.ArrayDemo.Array_EvenPosition</StartupObject>
+	  <StartupObject>My_First_Project.ArrayDemo.TaskEvenOdd</StartupObject>
   </PropertyGroup>
 </Project>
