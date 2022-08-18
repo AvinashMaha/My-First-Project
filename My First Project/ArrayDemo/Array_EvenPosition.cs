@@ -8,17 +8,16 @@ namespace My_First_Project.ArrayDemo
     {
         public void Position(int[]b)
         {
-            
+            Console.WriteLine("Even Position : ");
             for (int i = 0; i<b.Length;i++)
             {
                 if (i % 2 != 0)
                 {
                     continue;
                 }
-                Console.WriteLine("Even position is : " + b[i]);
-            }
-        }
-            
+                Console.WriteLine(b[i]);
+            }   
+        }       
         static void Main(String[] args)
         {
             Console.WriteLine("Enter the size of array");
