@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Text;
 
 namespace My_First_Project.ArrayDemo
-{
+{   
     class MergeArray
     {
         public static void JoinArray(int[] a, int[] b, int[] merge)
@@ -43,8 +43,10 @@ namespace My_First_Project.ArrayDemo
                     m++;
                 }
             }
-            Console.WriteLine(string.Join("  ", a));
-            Console.WriteLine(string.Join("  ", b));
+           
+            Console.WriteLine(string.Join(" \n", a));
+            Console.WriteLine(string.Join("\n", b));
+           
             for (int i = 0; i < m; i++)
             {
                 Console.Write(merge[i] + "  ");
@@ -55,7 +57,9 @@ namespace My_First_Project.ArrayDemo
             int[] a = { 5, 6, 4, 5, 8 };
             int[] b = { 7, 8, 4, 9, 2 };
             int[] c = new int[a.Length + b.Length];
+           
             JoinArray(a, b, c);
+           
         }
     }
 }

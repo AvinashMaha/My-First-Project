@@ -4,7 +4,7 @@ using System.Text;
 
 namespace My_First_Project.ArrayDemo
 {
-    class Array_Frequency
+    class Array_Occurance
     {
         public static void FindOccurance(int[]b)
         {
@@ -30,8 +30,8 @@ namespace My_First_Project.ArrayDemo
                             count++;
                         }
                     }
-                    if(count ==1)          //unique 
-                   // if (count > 1)  //duplicate element display
+                 //   if(count ==1)          //unique 
+                    if (count > 1)  //duplicate element display
                     {
                         Console.WriteLine(b[i] + " - " + count);
                     }
@@ -49,7 +49,8 @@ namespace My_First_Project.ArrayDemo
             {
                 a[i] = int.Parse(Console.ReadLine());
             }
-            Array_Frequency.FindOccurance(a);
+
+            Array_Occurance.FindOccurance(a);
 
         }
     }

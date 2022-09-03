@@ -15,7 +15,7 @@ namespace My_First_Project
             while (n > 0)
             {
                 r = n % 10;
-                sum = sum + (r * r * r* r);
+                sum = sum + (r * r * r* r);          //if user digit is 4 then type r 4 times 
                 n = n / 10;
             }
             if (temp == sum)

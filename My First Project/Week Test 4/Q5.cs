@@ -24,9 +24,9 @@ namespace My_First_Project.Week_Test_4
             {
                 if (a[i] != 0)
                 {
-                    temp = a[j];
-                    a[j] = a[i];
-                    a[i] = temp;
+                    temp = a[i];
+                    a[i] = a[j];
+                    a[j] = temp;
                     j++;
                 }
             }

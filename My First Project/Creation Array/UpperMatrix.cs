@@ -26,17 +26,15 @@ namespace My_First_Project.Creation_Array
                     Console.WriteLine();
                 }
             }
-              //  Console.WriteLine("--------------------------------------");
-                for(int i = 0; i <= a.GetUpperBound(0); i++)
-                {
-                for(int j = 0; j <= a.GetUpperBound(1); j++)
+                Console.WriteLine("--------------------------------------");
+            for (int i = 0; i <= a.GetUpperBound(0); i++)
+            {
+                for (int j = 0; j <= a.GetUpperBound(1); j++)
                 {
                     Console.Write(a[i, j]);
                 }
                 Console.WriteLine(" ");
-                }
-            
-
+            }
         }
     }
 }

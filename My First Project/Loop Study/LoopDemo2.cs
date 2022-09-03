@@ -6,7 +6,7 @@ namespace My_First_Project.Loop_Study
 {
     class LoopDemo2
     {
-        static void Main(String[] args)
+        static void Main(string[] args)
         {
             //sum of all even numbers 1 - 10 
             int sum = 0;

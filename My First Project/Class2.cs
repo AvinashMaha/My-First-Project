@@ -2,45 +2,51 @@
 using System.Collections.Generic;
 using System.Text;
 
-//namespace My_First_Project
-//{
-class Class2
+namespace My_First_Project
 {
-    void IPUser()
+    class Class2
     {
-        int r;
-        while (true)
+        void IPUser()
         {
-
-            Console.WriteLine("Enter any number");
-            int num = int.Parse(Console.ReadLine());
-            while (num > 0)
+            bool flag = true;
+            while (true)
             {
-                r = num % 10;
-                break;
+                Console.WriteLine("Enter any number");
+                int num = int.Parse(Console.ReadLine());
+                int num2 = num;
 
-
-
+                while (num > 0)
+                {
+                    int r = num % 10;                  
+                    if(r==0)
+                    {
+                        flag = false;                      
+                        break;
+                    }
+                    num = num / 10;
+                }
+               if(flag == false)
+                {
+                    Console.WriteLine("invalid o/p");
+                    break;
+                }
+                else
+                {
+                    Console.WriteLine(" your num is"+num2);
+                }
             }
-            /*  if (r == 0)
-              {
-                  Console.WriteLine("sorry");
-                  break;
-              }*/
-
-
-
-
-
         }
-
-    }
-    static void Main(String[] args)
-    {
-        Class2 c = new Class2();
-        c.IPUser();
+        static void Main(String[] args)
+        {         
+            Class2 c = new Class2();
+            c.IPUser();
+        }
     }
 }
+
+
+
+
 
  
 

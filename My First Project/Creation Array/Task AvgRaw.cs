@@ -16,7 +16,7 @@ namespace My_First_Project.Creation_Array
                 {
                     sum = sum + b[i, j];
                     Console.Write(b[i, j] + " ");
-                    count++;
+                    count++ ;
                 }
                 Console.Write("Sum of Raw is " + sum);
                 double Avg = sum / count;

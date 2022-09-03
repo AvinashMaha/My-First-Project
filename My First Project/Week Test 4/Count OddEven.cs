@@ -19,20 +19,21 @@ namespace My_First_Project.Week_Test_4
             }
             int even = 0;
             int odd = 0;
+           
             for (int i = 0; i < arr.Length; i++)
             {
                 if (arr[i] % 2 == 0)
-                {
+                {                 
                     even++;
                 }
                 else
                 {
-                    odd++;
+                  odd++;
+                 
                 }
-            }
+            }           
             Console.WriteLine("Even count=" + even);
             Console.WriteLine("Odd count=" + odd);
         }
-
     }
 }

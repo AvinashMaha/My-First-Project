@@ -15,7 +15,7 @@ namespace My_First_Project.Week_Test_4
                     if (j*j ==a[i])
                     {
                         Console.WriteLine(a[i]);
-                        break;
+                        //break;
                     }
                 }
             }

@@ -2,11 +2,11 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace My_First_Project.WhatsUp_Array
+namespace My_First_Project.Creation_Array
 {
     class Q10
     {
-        public static int Replace(int[] b)
+        public static void Replace(int[] b)
         {
             int j = 1;
             foreach(int c in b)
@@ -21,11 +21,11 @@ namespace My_First_Project.WhatsUp_Array
                 {
                     b[i] = j;
                 }
-                Console.WriteLine(b[i]);
+                Console.Write(b[i] + "     ");
             }
             
 
-            return j;
+          
         }
         static void Main(String[] args)
         {

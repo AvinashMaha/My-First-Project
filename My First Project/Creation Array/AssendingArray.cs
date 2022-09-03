@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace My_First_Project.WhatsUp_Array
+namespace My_First_Project.ArrayDemo
 {
     class AssendingArray
     {

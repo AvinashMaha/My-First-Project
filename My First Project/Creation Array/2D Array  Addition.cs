@@ -8,7 +8,6 @@ namespace My_First_Project.Creation_Array
     {
         public static void ArrayAddition(int[,] a, int[,] b, int[,] sum)
         {
-
             Console.WriteLine("Enter 1st array element");
             for (int i = 0; i < a.GetLength(0); i++)
             {
@@ -32,6 +31,7 @@ namespace My_First_Project.Creation_Array
                     sum[i, j] = a[i, j] + b[i, j];
                 }
             }
+
             Console.WriteLine("Addition of 2 2D arrays are");
             for(int i = 0; i < sum.GetLength(0); i++)
             {
@@ -41,8 +41,6 @@ namespace My_First_Project.Creation_Array
                 }             
                 Console.WriteLine();
             }
-
-
         }
             static void Main(String[] args)
             {
@@ -52,7 +50,6 @@ namespace My_First_Project.Creation_Array
 
             Array_Addition.ArrayAddition(a,b,sum);
             }
-        
     }
 }
 
