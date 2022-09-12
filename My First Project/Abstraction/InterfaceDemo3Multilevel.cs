@@ -8,7 +8,7 @@ namespace My_First_Project.Abstraction
     {
         interface IDrawable
         {
-            void Draw();   
+            void Draw();        
         }
         abstract class Circle 
         {
@@ -29,7 +29,10 @@ namespace My_First_Project.Abstraction
         {
             shape s = new shape();
             shape s2 = new shape();
-            s.Draw();
+            //s.Draw();
+
+          
+         
            
         }
     }

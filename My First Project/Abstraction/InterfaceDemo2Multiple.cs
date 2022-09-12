@@ -6,31 +6,38 @@ namespace My_First_Project.Abstraction
 {
     interface IDrawable
     {
+        static int y = 14;
         void Draw();
     }
     interface Iprintable
     {
-        void Print();
+        void Draw();
     }
+  
     class shape : IDrawable , Iprintable
     {
-        public void Draw()
+         void IDrawable.Draw()
         {
-            Console.WriteLine("Draw Shape");
+            Console.WriteLine("Draw Shape" + IDrawable.y);
         }
-        public void Print()
+         void Iprintable.Draw()
         {
-            Console.WriteLine("Print Shape");
-
+            Console.WriteLine("Print Shape"+ IDrawable.y);
         }
+       
     }
 
-    class InterfaceDemo2Multiple
+     class InterfaceDemo2Multiple
     {
         static void Main(String[]args) {
-            shape s = new shape();
-            s.Draw();
-            s.Print();
+          //  shape s = new shape();
+            IDrawable s1 = new shape();
+            Iprintable s2 = new shape();
+            
+
+            s1.Draw();
+            s2.Draw();
+          
         }
     }
 }

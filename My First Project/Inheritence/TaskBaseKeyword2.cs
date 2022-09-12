@@ -18,6 +18,7 @@ namespace My_First_Project.Inheritence
         public void ShowNumber()
         {
             Console.WriteLine("My number is =" + number);
+          //  base.ShowNumber();
         }
     }
     class Ten : Num

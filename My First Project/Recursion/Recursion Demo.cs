@@ -4,7 +4,7 @@ using System.Text;
 
 namespace My_First_Project.Recursion
 {
-    class Recursion_Demo 
+    class Recursion_Demo
     {
         /* static public void m1(int x)
          {
@@ -22,6 +22,7 @@ namespace My_First_Project.Recursion
              m1(1);     
          }*/
 
+
         public static int fact(int n)
         {
             if (n == 1)
@@ -33,8 +34,35 @@ namespace My_First_Project.Recursion
         }
         static void Main(string[] args)
         {
-           int result =  fact(3);
+            int result = fact(10);
             Console.WriteLine(result);
         }
+
+
+        //      Just for practice purpose ----------->
+        public static int facto (int s)
+            {
+            if(s ==1 )
+            {
+            return 1;
+            }
+            else
+            {
+               return s * facto( s - 1);
+            }
+
+
+            }
+       /* static void Main(string[] args)
+        {
+            int ans = facto(5);
+            Console.WriteLine(ans);
+        }*/
+
+
     }
+
+
+
+
 }

@@ -4,6 +4,6 @@
 		<OutputType>Exe</OutputType>
 		<TargetFramework>netcoreapp3.1</TargetFramework>
 		<RootNamespace>My_First_Project</RootNamespace>
-		<StartupObject>My_First_Project.VIMP_pracrice_Prorigo.Fibonacci_Seriescs</StartupObject>
+		<StartupObject>My_First_Project.Abstraction.InterfaceDemo2Multiple</StartupObject>
 	</PropertyGroup>
 </Project>

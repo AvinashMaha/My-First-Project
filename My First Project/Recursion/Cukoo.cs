@@ -21,8 +21,6 @@ namespace My_First_Project.Recursion
             }
             static void Main(string[] args)
             {
-
-
                 Cuckoo ck = new Cuckoo();
                 int n = Convert.ToInt32(Console.ReadLine());
                 int c = 0;

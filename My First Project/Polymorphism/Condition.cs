@@ -6,7 +6,7 @@ namespace My_First_Project.Polymorphism
 {
     class Condition
     {
-        int show(int a , int b)
+         static int show(int a , int b)
         {
             Console.Write("Addition = ");
             return a + b;
@@ -30,8 +30,10 @@ namespace My_First_Project.Polymorphism
         static void Main(String[] args)
         {
             Condition c = new Condition();
-            int ans1 = c.show(4, 5);
-            Console.WriteLine(ans1);
+            //  int ans1 c.show(4, 5);
+           int ans =  show(4, 5);
+
+            Console.WriteLine(ans);
 
             float ans2 = c.show(7.5f, 3);
             Console.WriteLine(ans2);
@@ -40,17 +42,8 @@ namespace My_First_Project.Polymorphism
            float ans3= c.show(10, 4.5f);
             Console.WriteLine(ans3);
 
-
            float ans4 =  c.show(9.3f, 4.7f);
             Console.WriteLine(ans4);
-
-
         }
-
-            
-       
-        
-
-
     }
 }

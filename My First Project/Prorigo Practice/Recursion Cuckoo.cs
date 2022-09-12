@@ -16,13 +16,10 @@ namespace My_First_Project.Prorigo_Practice
             {
                 s = 1;
             }
-
             return s;
         }
         static void Main(string[] args)
         {
-
-
             Cuckoo ck = new Cuckoo();
             int n = Convert.ToInt32(Console.ReadLine());
             int c = 0;

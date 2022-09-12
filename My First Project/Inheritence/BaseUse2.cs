@@ -13,7 +13,7 @@ namespace My_First_Project.Inheritence
         }
         class Sparrow : Bird
         {
-            public void Fly()
+            public void dry()
             {
                 Console.WriteLine("Sparrow is ready to fly");
                 base.Fly();
@@ -25,8 +25,7 @@ namespace My_First_Project.Inheritence
         {
             Sparrow s = new Sparrow();
             s.Fly();
-
+            s.dry();
         }
     }
-    
 }

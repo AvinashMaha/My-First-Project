@@ -19,7 +19,7 @@ namespace My_First_Project.Recursion
         }
         static void Main(string[] args)
         {
-            int result = cukoo(4);
+            int result = cukoo(5);
             Console.WriteLine(result);
         }
     }

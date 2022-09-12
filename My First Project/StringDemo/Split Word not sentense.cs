@@ -19,7 +19,7 @@ namespace My_First_Project.StringDemo
         //expected output is - ayanahS seog ot pohsib loohcs
         static void Main(string[] args)
         {
-            string s = "Shanaya goes to bishop school";       
+            string s = "Shanaya";       
             string[] sarr = s.Split(" ");
             Console.WriteLine("My split words are");
             for (int i =0; i<sarr.Length; i++)

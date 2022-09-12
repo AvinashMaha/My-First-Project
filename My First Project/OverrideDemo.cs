@@ -12,7 +12,6 @@ namespace My_First_Project
             Console.WriteLine("Legs of animal are" + no_of_legs);
         }
     }
-
     class Kangaroo : Animal
     {
         int no_of_legs = 2;
@@ -22,8 +21,14 @@ namespace My_First_Project
 
         }
     }
-
-        class OverrideDemo
+    class donkey : Animal
+    {
+        public sealed override void  Legs()
+        {         
+            Console.WriteLine("Donkey is running");        
+        }
+    }
+    class OverrideDemo
         {
             static void Main(String[] args)
             {
@@ -31,8 +36,5 @@ namespace My_First_Project
                 a.Legs();
             }
         }
-
-        
-    
 }
 
